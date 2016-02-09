@@ -13,7 +13,7 @@
 
 Route::get('/', 'PageController@index');
 Route::get('/greet/{name}', 'PageController@greet');
-Route::get('/getWeather/{location}', 'WeatherController@getWeather');
+Route::get('/weather/{location}', 'WeatherController@getWeather');
 
 
 /*
