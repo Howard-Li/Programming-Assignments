@@ -14,9 +14,6 @@
 Route::get('/locations', 'LocationController@index')->name('locations');
 Route::get('/stories',  'StoryController@index')->name('stories');
 Route::get('/tags', 'StoryController@tags')->name('tags');
-Route::get('/', function () {
-    return view('welcome');
-});
 
 /*
 |--------------------------------------------------------------------------
