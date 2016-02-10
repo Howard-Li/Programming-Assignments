@@ -16,7 +16,7 @@ class TagsTableSeeder extends Seeder
         $limit = 20;
 
         for ($i = 0; $i < $limit; $i++) {
-            DB::table('locations')->insert([
+            DB::table('tags')->insert([
             'value' => $faker->word,
             ]);
         }

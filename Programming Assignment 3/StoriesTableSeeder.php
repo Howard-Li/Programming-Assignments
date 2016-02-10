@@ -16,9 +16,9 @@ class StoriesTableSeeder extends Seeder
         $limit = 20;
 
         for ($i = 0; $i < $limit; $i++) {
-            DB::table('locations')->insert([
+            DB::table('stories')->insert([
             'title' => $faker->sentence,
-	    'sotry' => $faker->text,
+	    'story' => $faker->text,
             'published' => $faker->boolean,
             ]);
         }
